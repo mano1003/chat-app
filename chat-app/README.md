@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Create Back End Code with Node js by installing below required libraries
+
+npm install express socket.io cors dotenv jsonwebtoken
+
+npm install --save-dev @types/express @types/socket.io
+
+Configure the server port to 4000 and update the port in the front end login call and creating client socket io
+
 # Create Front End With TypeScript as template
 
 npx create-react-app frontend --template typescript
